@@ -131,3 +131,19 @@ export const reviewMovie = (id, review) => {
     }
   };
 };
+
+export const markMovieAsWatchedSuccess = (id) => ({
+  type: 'MARK_MOVIE_AS_WATCHED_SUCCESS',
+  payload: id,
+});
+
+export const markMovieAsWatched = (id) => {
+  return async (dispatch) => {
+    try {
+      await axios.patch(`${API_URL}/movies/${id}`, { watched: true });
+      dispatch(markMovieAsWatchedSuccess(id));
+    } catch (error) {
+      console.error('Error marking movie as watched:', error);
+    }
+  };
+};

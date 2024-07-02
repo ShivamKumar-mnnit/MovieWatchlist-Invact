@@ -1,5 +1,5 @@
 // src/components/MovieList.js
-import React, { useEffect} from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { fetchMovies, deleteMovie } from '../redux/actions/movieActions';
 import MovieCard from './MovieCard';
@@ -10,27 +10,22 @@ const MovieList = ({ movies, fetchMovies, deleteMovie }) => {
     fetchMovies();
   }, [fetchMovies]);
 
-
-
- 
-
-
+  // Filter out watched movies
+  const unwatchedMovies = movies.filter(movie => !movie.watched);
 
   return (
-
-<div className="movie-page">
+    <div className="movie-page">
       <div className="container">
         <div className="header">
           <h1 className="heading">My Watch List</h1>
           <span className="count-pill">
-            {movies.length} {movies.length === 1 ? "Movie" : "Movies"}
+            {unwatchedMovies.length} {unwatchedMovies.length === 1 ? "Movie" : "Movies"}
           </span>
         </div>
-        {movies.length > 0 ? (
+        {unwatchedMovies.length > 0 ? (
           <div className="movie-grid">
-            {movies.map((movie) => (
+            {unwatchedMovies.map((movie) => (
               <MovieCard movie={movie} type="watchList" key={movie.id} />
-              
             ))}
           </div>
         ) : (
@@ -38,7 +33,6 @@ const MovieList = ({ movies, fetchMovies, deleteMovie }) => {
         )}
       </div>
     </div>
-
   );
 };
 

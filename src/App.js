@@ -9,6 +9,7 @@ import Header from './components/Header';
 import './App.css'
 import MovieDetails from './components/MovieDetails';
 import EditMovieForm from './components/EditMovieForm';
+import WatchedPage from './components/WatchedPage';
 
 function App() {
 
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
       path : '/',
       element : <><Header/><MovieList/></>
+  },
+  {
+      path : '/watched',
+      element : <><Header/><WatchedPage/></>
   },
   {
       path : '/add',
