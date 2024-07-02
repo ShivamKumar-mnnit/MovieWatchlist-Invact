@@ -1,6 +1,7 @@
 import React from "react";
 import MovieControls from "./MovieControls";
 import imgmovie from './img/imgmovie.png';
+import { Link } from "react-router-dom";
 
 const MovieCard = ({ movie, type }) => {
 
@@ -21,14 +22,14 @@ const MovieCard = ({ movie, type }) => {
 
   return (
     <div className="movie-card">
+      <Link className='link' to={`/movie/${movie.id}`} >
       <div className="overlay"></div>
      
-      
       <p style={{ textAlign: "center", margin: "0", fontSize: "medium" }}>
       <strong>{movie.title}</strong>
       </p>
-      
 
+      </Link>
 
       {movie.poster_path ? (
         <img

@@ -2,6 +2,7 @@ import React, { useEffect} from 'react';
 import { fetchMovies, deleteMovie } from '../redux/actions/movieActions';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
@@ -37,10 +38,12 @@ const MovieControls = ({ movie, type}) => {
             <i className="fa-fw far fa-eye"></i>
           </button>
           
+        <Link to={`/edit/${movie.id}`} movie={movie}>
         <button className="ctrl-btn">
             <i className="fa-regular fa-pen-to-square"></i>
           </button>
-
+          </Link>
+          
           <button
             className="ctrl-btn"
             onClick={() => handleDelete(movie.id)}

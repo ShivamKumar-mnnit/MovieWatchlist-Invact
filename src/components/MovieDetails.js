@@ -43,9 +43,7 @@ const MovieDetails = ({ movies, fetchMovies }) => {
           movie.watched?<><p className='p-black'><strong>Watched <strong/></strong></p></>:<><p className='p-black'><strong>Unwatched <strong/></strong></p></>
         }
 
-        {
-          movie.review?<>{movie.review}</>:<>Review not available</>
-        }
+          <p className='p-black'> {movie.review?<> <strong>Review: </strong> {movie.review}</>:<>Review not available</> }</p>
 
 <div className="movie-controls-container">
           <MovieControls movie={movie} type={"watchList"} />

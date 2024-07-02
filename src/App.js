@@ -8,6 +8,7 @@ import AddMovieForm from './components/AddMovieForm';
 import Header from './components/Header';
 import './App.css'
 import MovieDetails from './components/MovieDetails';
+import EditMovieForm from './components/EditMovieForm';
 
 function App() {
 
@@ -19,11 +20,15 @@ const router = createBrowserRouter([
   },
   {
       path : '/add',
-      element : <AddMovieForm></AddMovieForm>
+      element : <><Header/><AddMovieForm/></>
+  },
+  {
+      path : 'edit/:id',
+      element : <><Header/><EditMovieForm/></>
   },
   {
       path : 'movie/:id',
-      element : <MovieDetails></MovieDetails>
+      element : <><Header/><MovieDetails /></>
   },
 ])
 

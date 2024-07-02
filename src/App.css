@@ -394,5 +394,7 @@ a {
 
 a:hover {
   text-decoration: none; /* Remove underline on hover */
-  color: inherit; /* Inherit text color from parent on hover */
+  color: greenyellow; /* Inherit text color from parent on hover */
 }
+
+

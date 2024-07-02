@@ -4,10 +4,55 @@
       "id": "1",
       "title": "Inception",
       "description": "A mind-bending thriller.gdgsfsdf sdf sdf asf f asf as ff as fa 123456fsdfadsfax lorem big The Movie Watchlist application is a web-based tool that allows users to manage a list of movies they want to watch. Users can add, edit, and delete movies from their watchlist, mark movies as watched or unwatched, and rate and review movies. State management will be handled using Redux to ensure efficient and predictable state updates.",
-      "releaseYear": 2013,
+      "releaseYear": 2022,
       "genre": "Science Fiction",
       "watched": false,
-      "rating": 2,
+      "rating": 3,
+      "review": "write"
+    },
+    {
+      "id": "30f7",
+      "title": "ok",
+      "description": "add",
+      "releaseYear": 0,
+      "genre": ""
+    },
+    {
+      "id": "4d88",
+      "title": "new title",
+      "description": "dfas",
+      "releaseYear": 2003,
+      "genre": ""
+    },
+    {
+      "id": "4854",
+      "title": "add new ",
+      "description": "",
+      "releaseYear": 2020,
+      "genre": ""
+    },
+    {
+      "id": "b227",
+      "title": "fasf",
+      "description": "",
+      "releaseYear": 0,
+      "genre": ""
+    },
+    {
+      "id": "71bf",
+      "title": "aa",
+      "description": "",
+      "releaseYear": 0,
+      "genre": "ok"
+    },
+    {
+      "id": "1719919898647",
+      "title": "new check",
+      "description": "",
+      "releaseYear": 0,
+      "genre": "",
+      "watched": false,
+      "rating": 0,
       "review": ""
     }
   ]

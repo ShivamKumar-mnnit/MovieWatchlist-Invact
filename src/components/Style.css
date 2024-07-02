@@ -48,3 +48,121 @@
     margin-top: 20px; /* Adjust spacing */
   }
   
+  .link{
+    color: black;
+  }
+  .link:hover{
+    color:black;
+  }
+ 
+
+  /* AddMovieForm.css */
+
+.add-movie-form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-movie-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-movie-form input,
+.add-movie-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-movie-form textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.add-movie-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-movie-form button:hover {
+  background-color: #0056b3;
+}
+
+
+/* EditMovieForm.css */
+
+.edit-movie-form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-movie-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-movie-form input,
+.edit-movie-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.edit-movie-form textarea {
+  resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.edit-movie-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.edit-movie-form button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Style.css */
+
+.star {
+  font-size: 24px;
+  color: #ccc;
+}
+
+.star.filled {
+  color: gold;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  margin-left: 10px;
+}
+
+ 
+  
