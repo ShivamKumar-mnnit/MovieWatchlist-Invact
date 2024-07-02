@@ -38,7 +38,18 @@ const EditMovieForm = ({ movies, updateMovie }) => {
   }
 
   return (
-    <div className="edit-movie-form-container">
+    <div className="container">
+   
+            <div className="one">
+  <div className="two">
+  <div className="three">
+  <div className="four">
+  <div className="five">
+  <div className="six">
+  <div className="seven">
+  <div className="eight">
+  <div className="nine">
+  <div className="edit-movie-form-container">
       <h2>Edit Movie</h2>
       <form onSubmit={handleSubmit} className="edit-movie-form">
         <input
@@ -95,6 +106,16 @@ const EditMovieForm = ({ movies, updateMovie }) => {
         />
         <button type="submit">Update Movie</button>
       </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 };

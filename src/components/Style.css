@@ -1,13 +1,14 @@
 /* src/components/MovieDetails.css */
 
 .movie-details-container {
-    background: url('./img/imgmovie.png') no-repeat center center fixed;
+    background: no-repeat center center fixed;
     background-size: cover;
     height: 100vh; /* Adjust as necessary */
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative; /* Needed for stacking context */
+    
   }
   
   .movie-details {
@@ -60,6 +61,7 @@
 
 .add-movie-form-container {
   max-width: 600px;
+  height: 80vh;
   margin: auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -104,6 +106,7 @@
 
 .edit-movie-form-container {
   max-width: 600px;
+  height: 80vh;
   margin: auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -164,5 +167,61 @@
   margin-left: 10px;
 }
 
+
+
+
+.one{
+  background : url("./space/1.png") ;
+}
+.two{
+  background : url("./space/2.png") ;
+}
+.three{
+  background : url("./space/3.png") ;
+}
+.four{
+  background : url("./space/4.png") ;
+}
+.five{
+  background : url("./space/5.png") no-repeat;
+}
+.six{
+  background : url("./space/6.png") ;
+}
+.seven{
+  background : url("./space/7.png") ;
+}
+.eight{
+  background : url("./space/8.png") ;
+}
+.nine{
+  background : url("./space/9.png") ;
+}
  
-  
+/* .bg{
+  background: url('./img/bg.jpg');
+} */
+
+
+.planets{
+ height: 100vh;
+ margin: 20px;
+}
+
+.movie-title{
+  padding: 2px;
+  margin: 2px;
+}
+
+.search-bar {
+  margin-bottom: 20px; /* Example margin for spacing */
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

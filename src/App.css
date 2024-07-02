@@ -13,6 +13,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
   margin: 0;
+  background-color:#F2F2F2
 }
 
 .container {
@@ -277,17 +278,22 @@ header .nav-links li:last-child {
 }
 
 .movie-card:hover .overlay {
+  background-color: black;
+  z-index: -1;
+  color: white;
+
+
   border: 3px solid var(--secondary);
 }
 
 .movie-card .inner-card-controls {
   display: inline;
-  background-color: red;
+  background-color: rgb(245, 0, 0);
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
   border-radius: 5px;
   padding: 1px;
   opacity: 0;
@@ -298,8 +304,16 @@ header .nav-links li:last-child {
   opacity: 1;
 }
 
+.movie-card:hover .movie-desc{
+  color: white;
+}
+
+.movie-card:hover .movie-title{
+  color: white;
+}
+
 .ctrl-btn {
-  color: #fefefe;
+  color: #040202;
   background-color: transparent;
   border: none;
   transition: all 0.3s ease;
@@ -375,6 +389,7 @@ header .nav-links li:last-child {
 .movie-desc{
   margin: 2px;
   padding: 6px;
+  
 }
 
 Link {

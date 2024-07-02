@@ -28,7 +28,7 @@ const MovieDetails = ({ movies, fetchMovies }) => {
 
   // Render movie details
   return (
-    <div className="movie-details-container">
+    <div className="movie-details-container" style={{ backgroundImage: `url(${movie.url})` }}>
       <div className="movie-details">
         <h2>{movie.title}</h2>
         

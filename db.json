@@ -8,7 +8,8 @@
       "genre": "Science Fiction",
       "watched": false,
       "rating": 4,
-      "review": "Amazing plot twists."
+      "review": "Amazing plot twists.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"
     },
     {
       "id": "2",
@@ -18,7 +19,8 @@
       "genre": "Action",
       "watched": false,
       "rating": 5,
-      "review": "Best Batman movie ever."
+      "review": "Best Batman movie ever.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_Knight.jpg"
     },
     {
       "id": "3",
@@ -28,7 +30,8 @@
       "genre": "Science Fiction",
       "watched": false,
       "rating": 3,
-      "review": ""
+      "review": "",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg"
     },
     {
       "id": "4",
@@ -36,9 +39,10 @@
       "description": "The Matrix is a 1999 science fiction action film written and directed by the Wachowskis. It depicts a dystopian future in which humanity is unknowingly trapped inside a simulated reality, the Matrix, created by intelligent machines to distract humans while using their bodies as an energy source.",
       "releaseYear": 1999,
       "genre": "Science Fiction",
-      "watched": false,
+      "watched": true,
       "rating": 5,
-      "review": "Revolutionary special effects."
+      "review": "Revolutionary special effects.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg"
     },
     {
       "id": "5",
@@ -46,9 +50,10 @@
       "description": "Avatar is a 2009 American epic science fiction film directed, written, produced, and co-edited by James Cameron. It stars Sam Worthington, Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver.",
       "releaseYear": 2009,
       "genre": "Science Fiction",
-      "watched": false,
+      "watched": true,
       "rating": 4,
-      "review": "Visually stunning."
+      "review": "Visually stunning.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg"
     },
     {
       "id": "6",
@@ -56,9 +61,10 @@
       "description": "Titanic is a 1997 American epic romance and disaster film directed, written, produced, and co-edited by James Cameron. It stars Leonardo DiCaprio and Kate Winslet as members of different social classes who fall in love aboard the RMS Titanic during its ill-fated maiden voyage.",
       "releaseYear": 1997,
       "genre": "Romance",
-      "watched": false,
+      "watched": true,
       "rating": 5,
-      "review": "A timeless love story."
+      "review": "A timeless love story.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/19/Titanic_%28Official_Film_Poster%29.png"
     },
     {
       "id": "7",
@@ -67,8 +73,9 @@
       "releaseYear": 1994,
       "genre": "Drama",
       "watched": false,
-      "rating": 5,
-      "review": "A masterpiece."
+      "rating": 4,
+      "review": "A masterpiece.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
     },
     {
       "id": "8",
@@ -78,7 +85,8 @@
       "genre": "Crime",
       "watched": false,
       "rating": 5,
-      "review": "Iconic dialogues."
+      "review": "Iconic dialogues.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg"
     },
     {
       "id": "9",
@@ -88,7 +96,8 @@
       "genre": "Fantasy",
       "watched": false,
       "rating": 5,
-      "review": "A fantastical journey."
+      "review": "A fantastical journey.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/0c/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29_theatrical_poster.jpg"
     },
     {
       "id": "10",
@@ -98,7 +107,8 @@
       "genre": "Drama",
       "watched": false,
       "rating": 5,
-      "review": "Heartwarming and inspirational."
+      "review": "Heartwarming and inspirational.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg"
     },
     {
       "id": "11",
@@ -108,7 +118,8 @@
       "genre": "Drama",
       "watched": false,
       "rating": 4,
-      "review": "A thought-provoking film."
+      "review": "A thought-provoking film.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg"
     },
     {
       "id": "12",
@@ -118,7 +129,8 @@
       "genre": "Crime",
       "watched": false,
       "rating": 5,
-      "review": "An epic saga."
+      "review": "An epic saga.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg"
     },
     {
       "id": "13",
@@ -128,7 +140,8 @@
       "genre": "Crime",
       "watched": false,
       "rating": 0,
-      "review": ""
+      "review": "",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/03/Godfather_part_ii.jpg"
     },
     {
       "id": "14",
@@ -138,7 +151,8 @@
       "genre": "Fantasy",
       "watched": false,
       "rating": 0,
-      "review": ""
+      "review": "",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/9d/Lord_of_the_Rings_-_The_Return_of_the_King.jpg"
     },
     {
       "id": "15",
@@ -148,7 +162,8 @@
       "genre": "Action",
       "watched": false,
       "rating": 5,
-      "review": "Epic and emotional."
+      "review": "Epic and emotional.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_%282000_film_poster%29.jpg"
     },
     {
       "id": "16",
@@ -158,7 +173,8 @@
       "genre": "Animation",
       "watched": false,
       "rating": 5,
-      "review": "A childhood classic."
+      "review": "A childhood classic.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg"
     },
     {
       "id": "17",
@@ -166,9 +182,10 @@
       "description": "Saving Private Ryan is a 1998 American epic war film directed by Steven Spielberg and written by Robert Rodat. It follows United States Army Rangers Captain John H. Miller (Tom Hanks) and his squad (Tom Sizemore, Edward Burns, Barry Pepper, Giovanni Ribisi, Vin Diesel, Adam Goldberg, and Jeremy Davies) as they search for a paratrooper, Private First Class James Francis Ryan (Matt Damon), who is the last-surviving brother of four servicemen.",
       "releaseYear": 1998,
       "genre": "War",
-      "watched": false,
+      "watched": true,
       "rating": 0,
-      "review": ""
+      "review": "",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg"
     },
     {
       "id": "18",
@@ -178,7 +195,8 @@
       "genre": "Science Fiction",
       "watched": false,
       "rating": 2,
-      "review": "A groundbreaking adventure."
+      "review": "A groundbreaking adventure.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg"
     },
     {
       "id": "19",
@@ -188,7 +206,8 @@
       "genre": "Horror",
       "watched": false,
       "rating": 5,
-      "review": "Terrifyingly brilliant."
+      "review": "Terrifyingly brilliant.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg"
     },
     {
       "id": "20",
@@ -198,7 +217,18 @@
       "genre": "Historical",
       "watched": false,
       "rating": 5,
-      "review": "A powerful and moving film."
+      "review": "A powerful and moving film.",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg"
+    },
+    {
+      "id": "1719934140344",
+      "title": "new",
+      "description": "ok",
+      "releaseYear": 2003,
+      "genre": "good movie",
+      "watched": false,
+      "rating": 2,
+      "review": "very goof"
     }
   ]
 }
