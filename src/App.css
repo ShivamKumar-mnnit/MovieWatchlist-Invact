@@ -376,3 +376,23 @@ header .nav-links li:last-child {
   margin: 2px;
   padding: 6px;
 }
+
+Link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent */
+}
+
+Link:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: inherit; /* Inherit text color from parent on hover */
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color from parent */
+}
+
+a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: inherit; /* Inherit text color from parent on hover */
+}

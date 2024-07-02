@@ -4,9 +4,15 @@ import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { fetchMovies } from '../redux/actions/movieActions';
 import { useParams } from 'react-router-dom';
+import MovieControls from './MovieControls';
+import './Style.css'; // Import your CSS file
 
 const MovieDetails = ({ movies, fetchMovies }) => {
   const { id } = useParams(); // Accessing route parameters to get movie ID
+
+  const renderStars = (rating) => {
+    return '⭐'.repeat(rating) + '☆'.repeat(5 - rating);
+  };
 
   useEffect(() => {
     fetchMovies();
@@ -22,12 +28,30 @@ const MovieDetails = ({ movies, fetchMovies }) => {
 
   // Render movie details
   return (
-    <div className="movie-details">
-      <h2>{movie.title}</h2>
-      <img src={movie.poster} alt={`${movie.title} Poster`} />
-      <p>{movie.description}</p>
-      <p>Rating: {movie.rating}</p>
-      {/* Add more details as needed */}
+    <div className="movie-details-container">
+      <div className="movie-details">
+        <h2>{movie.title}</h2>
+        
+        <p>{movie.description}</p>
+        <p className='p-black'><strong>Release Year: </strong>{movie.releaseYear}</p>
+        <p className='p-black'><strong>Rating:</strong>{movie.rating?
+      <>{renderStars(movie.rating)}</>: <> unrated</>
+        }</p>
+        
+        <p className='p-black'><strong>Genre: </strong>{movie.genre}</p>
+        {
+          movie.watched?<><p className='p-black'><strong>Watched <strong/></strong></p></>:<><p className='p-black'><strong>Unwatched <strong/></strong></p></>
+        }
+
+        {
+          movie.review?<>{movie.review}</>:<>Review not available</>
+        }
+
+<div className="movie-controls-container">
+          <MovieControls movie={movie} type={"watchList"} />
+        </div>
+        
+      </div>
     </div>
   );
 };

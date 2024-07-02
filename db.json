@@ -3,26 +3,12 @@
     {
       "id": "1",
       "title": "Inception",
-      "description": "A mind-bending thriller.",
+      "description": "A mind-bending thriller.gdgsfsdf sdf sdf asf f asf as ff as fa 123456fsdfadsfax lorem big The Movie Watchlist application is a web-based tool that allows users to manage a list of movies they want to watch. Users can add, edit, and delete movies from their watchlist, mark movies as watched or unwatched, and rate and review movies. State management will be handled using Redux to ensure efficient and predictable state updates.",
       "releaseYear": 2013,
       "genre": "Science Fiction",
       "watched": false,
       "rating": 2,
       "review": ""
-    },
-    {
-      "id": "2",
-      "title": "fasdfljsd;f",
-      "description": "fsdfsdf",
-      "releaseYear": 1111,
-      "genre": "fsfd"
-    },
-    {
-      "id": "b779",
-      "title": "newnflsf",
-      "description": "fsdfsdfs",
-      "releaseYear": 2222,
-      "genre": "1"
     }
   ]
 }

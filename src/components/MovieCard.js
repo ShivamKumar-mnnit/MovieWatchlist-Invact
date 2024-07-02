@@ -1,11 +1,22 @@
 import React from "react";
 import MovieControls from "./MovieControls";
-import imgmovie from './imgmovie.png';
+import imgmovie from './img/imgmovie.png';
 
 const MovieCard = ({ movie, type }) => {
 
   const renderStars = (rating) => {
     return '⭐'.repeat(rating) + '☆'.repeat(5 - rating);
+  };
+
+
+   // Function to slice description to a certain number of words
+   const sliceDescription = (description, maxWords) => {
+    const words = description.split(' ');
+    if (words.length > maxWords) {
+      return words.slice(0, maxWords).join(' ') + '...'; // Append ellipsis if description is sliced
+    } else {
+      return description; // Return full description if it's shorter than maxWords
+    }
   };
 
   return (
@@ -36,7 +47,7 @@ const MovieCard = ({ movie, type }) => {
       <MovieControls movie={movie} type={type}  />
 
 <div className="movie-desc">
-      {movie.description} ({movie.releaseYear})
+{sliceDescription(movie.description, 10)}({movie.releaseYear})
       <br />
       <strong> Genre:</strong> {movie.genre}
       <br />

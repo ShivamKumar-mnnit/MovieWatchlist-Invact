@@ -1,12 +1,14 @@
 import React, { useEffect} from 'react';
 import { fetchMovies, deleteMovie } from '../redux/actions/movieActions';
 import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 
 
 
 const MovieControls = ({ movie, type}) => {
 
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetchMovies();
@@ -17,6 +19,7 @@ const MovieControls = ({ movie, type}) => {
   const handleDelete = (id) => {
     if (window.confirm('Are you sure you want to delete this movie?')) {
       dispatch(deleteMovie(id));
+      navigate('/');
     }
   };
 

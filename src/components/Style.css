@@ -1,0 +1,50 @@
+/* src/components/MovieDetails.css */
+
+.movie-details-container {
+    background: url('./img/imgmovie.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Adjust as necessary */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Needed for stacking context */
+  }
+  
+  .movie-details {
+    max-width: 50%; /* Limit width to occupy half of the page */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Add a blur effect to the background */
+    border-radius: 10px; /* Rounded corners */
+    text-align: left; /* Align text to the left */
+    color: #0d0355; /* Text color */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    overflow-wrap: break-word; /* Ensure long words break and wrap */
+  }
+  
+  .movie-details:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    background-color: rgba(255, 255, 255, 0.5); /* Lighten background on hover */
+  }
+  
+  .movie-details h2 {
+    font-size: 2.5rem; /* Example: Larger font size for title */
+    margin-bottom: 10px; /* Example: Adjust spacing */
+    color: black;
+  }
+  
+  .movie-details p {
+    font-size: 1.2rem; /* Example: Smaller font size for description */
+    line-height: 1.6; /* Example: Adjust line height for readability */
+    margin-bottom: 15px; /* Example: Adjust spacing */
+  }
+
+  .p-black{
+    color: black;
+  }
+
+  .movie-controls-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust spacing */
+  }
+  
