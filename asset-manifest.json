@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovieWatchlist-Invact/static/css/main.4f4352bc.css",
-    "main.js": "/MovieWatchlist-Invact/static/js/main.5d396899.js",
+    "main.js": "/MovieWatchlist-Invact/static/js/main.505aa4e6.js",
     "static/media/fa-solid-900.ttf": "/MovieWatchlist-Invact/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/6.png": "/MovieWatchlist-Invact/static/media/6.4f81795d050dc668770c.png",
     "static/media/fa-brands-400.ttf": "/MovieWatchlist-Invact/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
@@ -22,10 +22,10 @@
     "static/media/fa-v4compatibility.woff2": "/MovieWatchlist-Invact/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/MovieWatchlist-Invact/index.html",
     "main.4f4352bc.css.map": "/MovieWatchlist-Invact/static/css/main.4f4352bc.css.map",
-    "main.5d396899.js.map": "/MovieWatchlist-Invact/static/js/main.5d396899.js.map"
+    "main.505aa4e6.js.map": "/MovieWatchlist-Invact/static/js/main.505aa4e6.js.map"
   },
   "entrypoints": [
     "static/css/main.4f4352bc.css",
-    "static/js/main.5d396899.js"
+    "static/js/main.505aa4e6.js"
   ]
 }
