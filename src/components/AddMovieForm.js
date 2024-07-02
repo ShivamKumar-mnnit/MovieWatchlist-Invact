@@ -33,11 +33,25 @@ const AddMovieForm = ({ addMovie }) => {
     setDescription('');
     setReleaseYear('');
     setGenre('');
+    alert('movie added successfully');
     navigate('/');
   };
 
   return (
-    <div className="add-movie-form-container">
+  
+  <div className="planets">
+       <div className="one">
+  <div className="two">
+  <div className="three">
+  <div className="four">
+  <div className="five">
+  <div className="six">
+  <div className="seven">
+  <div className="eight">
+  <div className="nine">
+  
+  
+  <div className="add-movie-form-container">
       <h2>Add New Movie</h2>
       <form onSubmit={handleSubmit} className="add-movie-form">
         <input
@@ -67,6 +81,16 @@ const AddMovieForm = ({ addMovie }) => {
         />
         <button type="submit">Add Movie</button>
       </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 };

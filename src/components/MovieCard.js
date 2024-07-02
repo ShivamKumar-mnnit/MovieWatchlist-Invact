@@ -1,6 +1,6 @@
 import React from "react";
 import MovieControls from "./MovieControls";
-import imgmovie from './img/imgmovie.png';
+import imgmovie from './img/default2.jpg';
 import { Link } from "react-router-dom";
 
 const MovieCard = ({ movie, type }) => {
@@ -25,25 +25,32 @@ const MovieCard = ({ movie, type }) => {
       <Link className='link' to={`/movie/${movie.id}`} >
       <div className="overlay"></div>
      
-      <p style={{ textAlign: "center", margin: "0", fontSize: "medium" }}>
+      <p className="movie-title" style={{ textAlign: "center", margin: "0", fontSize: "larger" }}>
       <strong>{movie.title}</strong>
       </p>
 
-      </Link>
+      
 
-      {movie.poster_path ? (
-        <img
-          src={(imgmovie)}
-          alt={`${movie.title} Poster`}
-        />
-      ) : (
+      {
+  movie.url ? (
+    <img
+      src={movie.url}
+      alt={`${movie.title} Poster`}
+      onError={(e) => {
+        e.target.onerror = null; // Prevent infinite loop in case of repeated error
+        e.target.src = imgmovie; // Replace with default image URL or handle error condition
+        e.target.alt = `${movie.title} Poster`; // Optional: Set alternate text
+      }}
+    />
+  ) : (
+    <img
+      src={imgmovie} // Replace with the default image URL
+      alt={`${movie.title} Poster`}
+    />
+  )
+}
 
-        <img
-          src={(imgmovie)}
-          alt={`${movie.title} Poster`}
-        />
-            )}
-
+</Link>
 
       <MovieControls movie={movie} type={type}  />
 
