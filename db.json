@@ -1,0 +1,18 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "description": "A mind-bending thriller.",
+      "releaseYear": 2010,
+      "genre": "Science Fiction"
+    },
+    {
+      "id": 2,
+      "title": "The Shawshank Redemption",
+      "description": "A story of hope and perseverance.",
+      "releaseYear": 1994,
+      "genre": "Drama"
+    }
+  ]
+}
