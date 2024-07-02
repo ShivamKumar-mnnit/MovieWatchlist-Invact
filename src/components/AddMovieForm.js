@@ -33,6 +33,7 @@ const AddMovieForm = ({ addMovie }) => {
     setDescription('');
     setReleaseYear('');
     setGenre('');
+    alert('movie added successfully');
     navigate('/');
   };
 

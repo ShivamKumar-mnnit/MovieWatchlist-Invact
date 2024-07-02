@@ -347,7 +347,7 @@ header .nav-links li:last-child {
   }
 
   header .nav-links a {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: large;
   }
 

@@ -1,48 +1,29 @@
-// src/App.js
 import React from 'react';
-import { createBrowserRouter, RouterProvider} from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/store';
 import MovieList from './components/MovieList';
 import AddMovieForm from './components/AddMovieForm';
 import Header from './components/Header';
-import './App.css'
+import './App.css';
 import MovieDetails from './components/MovieDetails';
 import EditMovieForm from './components/EditMovieForm';
 import WatchedPage from './components/WatchedPage';
 
 function App() {
-
-  /** root routes */
-const router = createBrowserRouter([
-  {
-      path : '/',
-      element : <><Header/><MovieList/></>
-  },
-  {
-      path : '/watched',
-      element : <><Header/><WatchedPage/></>
-  },
-  {
-      path : '/add',
-      element : <><Header/><AddMovieForm/></>
-  },
-  {
-      path : 'edit/:id',
-      element : <><Header/><EditMovieForm/></>
-  },
-  {
-      path : 'movie/:id',
-      element : <><Header/><MovieDetails /></>
-  },
-])
-
   return (
     <Provider store={store}>
       <div className="App">
-    
-        <RouterProvider router={router} ></RouterProvider>
-        
+        <Router>
+          <Header />
+          <Routes>
+            <Route path="/" element={<MovieList />} />
+            <Route path="/watched" element={<WatchedPage />} />
+            <Route path="/add" element={<AddMovieForm />} />
+            <Route path="/edit/:id" element={<EditMovieForm />} />
+            <Route path="/movie/:id" element={<MovieDetails />} />
+          </Routes>
+        </Router>
       </div>
     </Provider>
   );

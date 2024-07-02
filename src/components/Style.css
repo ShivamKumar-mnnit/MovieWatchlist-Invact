@@ -12,7 +12,9 @@
   }
   
   .movie-details {
-    max-width: 50%; /* Limit width to occupy half of the page */
+    margin-top: 78px;
+    max-width: 80%; /* Limit width to occupy half of the page */
+    overflow: auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
     backdrop-filter: blur(10px); /* Add a blur effect to the background */
