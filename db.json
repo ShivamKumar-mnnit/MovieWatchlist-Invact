@@ -1,18 +1,23 @@
 {
   "movies": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Inception",
       "description": "A mind-bending thriller.",
-      "releaseYear": 2010,
-      "genre": "Science Fiction"
+      "releaseYear": 2012,
+      "genre": "Science Fiction",
+      "watched": false,
+      "rating": 2,
+      "review": ""
     },
     {
-      "id": 2,
-      "title": "The Shawshank Redemption",
-      "description": "A story of hope and perseverance.",
-      "releaseYear": 1994,
-      "genre": "Drama"
+      "id": "7f3a",
+      "title": "adding",
+      "description": "dafsd",
+      "releaseYear": 11,
+      "genre": "22",
+      "watched": false,
+      "review": "ba"
     }
   ]
 }

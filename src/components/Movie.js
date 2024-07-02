@@ -1,30 +1,25 @@
+// src/components/Movie.js
+
 import React from 'react';
 import { connect } from 'react-redux';
-import { editMovie } from '../redux/actions/movieActions';
+import { markAsWatched, markAsUnwatched, rateMovie, reviewMovie } from '../redux/actions/movieActions';
 
-const Movie = ({ movie, editMovie }) => {
+const Movie = ({ movie, markAsWatched, markAsUnwatched, rateMovie, reviewMovie }) => {
+
   const toggleWatched = () => {
-    const updatedMovie = {
-      ...movie,
-      watched: !movie.watched
-    };
-    editMovie(updatedMovie);
+    if (movie.watched) {
+      markAsUnwatched(movie.id);
+    } else {
+      markAsWatched(movie.id);
+    }
   };
 
   const handleRatingChange = (e) => {
-    const updatedMovie = {
-      ...movie,
-      rating: parseInt(e.target.value)
-    };
-    editMovie(updatedMovie);
+    rateMovie(movie.id, parseInt(e.target.value));
   };
 
   const handleReviewChange = (e) => {
-    const updatedMovie = {
-      ...movie,
-      review: e.target.value
-    };
-    editMovie(updatedMovie);
+    reviewMovie(movie.id, e.target.value);
   };
 
   return (
@@ -34,7 +29,7 @@ const Movie = ({ movie, editMovie }) => {
       <p>Released: {movie.releaseYear}</p>
       <p>Genre: {movie.genre}</p>
       <p>Watched: <input type="checkbox" checked={movie.watched} onChange={toggleWatched} /></p>
-      <p>Rating: 
+      <p>Rating:
         <select value={movie.rating} onChange={handleRatingChange}>
           <option value={0}>Not Rated</option>
           <option value={1}>⭐</option>
@@ -49,4 +44,4 @@ const Movie = ({ movie, editMovie }) => {
   );
 };
 
-export default connect(null, { editMovie })(Movie);
+export default connect(null, { markAsWatched, markAsUnwatched, rateMovie, reviewMovie })(Movie);
