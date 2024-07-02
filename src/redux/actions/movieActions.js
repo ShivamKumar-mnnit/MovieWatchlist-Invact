@@ -2,7 +2,8 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001';
+// const API_URL = 'http://localhost:3001';
+const API_URL = 'https://moviewatchlistserver.onrender.com';
 
 export const fetchMoviesSuccess = (movies) => ({
   type: 'FETCH_MOVIES_SUCCESS',
