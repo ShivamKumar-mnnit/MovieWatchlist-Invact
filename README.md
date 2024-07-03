@@ -17,12 +17,12 @@ Welcome to the Movie Watchlist App – your ultimate companion for managing and 
 ## Demo Video
 [Watch the demo video]([https://devfolio.co/projects/quizzwhizz-6e13](https://drive.google.com/file/d/1UG2HlEYFRJunooI3Hv2bNdMb-3Zfj9ZY/view))
 
-##What We Offer:
+## What We Offer:
 Comprehensive Movie Management: Easily add, edit, and delete movies from your watchlist. Keep track of what you’ve watched and what’s still on your must-see list.
 Personal Ratings and Reviews: Rate movies and jot down your thoughts to create a personal record of your viewing experiences.
 User-Friendly Interface: Our app is designed with you in mind, offering a modern, responsive, and intuitive interface to make movie management a breeze.
 
-##Get Started:
+## Get Started:
 Create Your Watchlist: Add your favorite movies and those you plan to watch soon.
 Organize Your Collection: Update movie details, mark them as watched, and keep your list tidy.
 Rate and Review: Share your opinions and ratings to build a personalized movie log.
